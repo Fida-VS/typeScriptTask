@@ -1,4 +1,4 @@
-type Product = {
+interface Product {
       price: number
       discount?: number
       isInstallment?: boolean
